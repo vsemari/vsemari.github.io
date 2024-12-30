@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    height: auto;
+    font-weight: bold;
+    color: #414877;
+}
+
+.logo span {
+    color: #414877;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.telegram-button {
+    background-color: #414877;
+    color: #E1E5F2;
+    font-size: 16px;
+    padding: 5px 30px 5px 30px;
+    border: 3px solid #414877;
+    border-radius: 6px;
+    text-decoration: none
+}
+
+.telegram-button:hover {
+    border-color: #b69c5f;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 11px;
+    height: 491px;
+}
+
+.main-text {
+    max-width: 818px;
+    max-height: 378px;
+}
+
+.main-text h1 {
+    font-size: 54px;
+    color: #211A1D;
+    font-weight: normal;
+}
+
+.main-text p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 22px;
+    background-color: #414877;
+    color: #fff;
+    border: 3px solid #414877;
+    border-radius: 5px;
+    text-decoration: none;
+
+    font-size: 18px;
+    transition: all 0.2s ease-in;
+}
+
+.cta-button:hover {
+    border-color: #b69c5f;
+}
+
+.image-canvas {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-img {
+    height: 491px;
+}
+
+.overlay-img1 {
+    position: absolute;
+    width: 133.17px;
+    height: 103.29px;
+    top: 5%;
+    left: 62%;
+    transform: rotate(5deg);
+}
+
+.overlay-img2 {
+    position: absolute;
+    width: 123.53px;
+    height: 99.9px;
+    top: 30%;
+    right: 77%;
+    transform: rotate(-3deg);
+}
+
+.overlay-img3 {
+    position: absolute;
+
+    transform: rotate(3deg);
+    width: 156.11px;
+    height: 155.39px;
+    bottom: -4%;
+    left: 59%;
+}
+
